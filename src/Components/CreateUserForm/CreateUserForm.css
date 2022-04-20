@@ -1,0 +1,23 @@
+.create-user-form{
+    margin: 50px 0;
+}
+.create-user-form form{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 3px;
+}
+.create-user-form form input{
+    padding: 4px 8px; 
+    font-size: 18px;
+}
+.create-user-form form input
+.btn{
+    cursor: pointer;
+    background-color: rgb(58, 156, 242);
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
